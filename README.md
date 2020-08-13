@@ -1,4 +1,4 @@
-# FastCGI benchmark
+# FastCGI client benchmark
 
 ## Prepare fastcgi server
 
