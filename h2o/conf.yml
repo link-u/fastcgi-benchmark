@@ -1,0 +1,17 @@
+hosts:
+  '*':
+    listen:
+      port: 8080
+    file.index: ['index.php']
+    paths:
+      '/':
+        fastcgi.connect:
+          port: /var/run/server.sock
+          type: unix
+        fastcgi.timeout.keepalive: 360000
+# log
+#access-log: /dev/stdout
+#error-log: /dev/stderr
+access-log: /dev/null
+error-log: /dev/stderr
+
