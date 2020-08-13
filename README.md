@@ -7,6 +7,8 @@ bash srv/run.sh # to benchmark
 bash srv/run-trace.sh # to debug
 ```
 
+Prebuilt server bianry is from [link-u/the-simplest-fastcgi-server-in-this-world](https://github.com/link-u/the-simplest-fastcgi-server-in-this-world).
+
 ## Start web server
 
 ```bash
